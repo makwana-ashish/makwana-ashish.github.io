@@ -65,7 +65,7 @@ Shree Swami Vivekananda College
 ## 📬 Let’s Connect!
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Ashish%20Makwana-blue?logo=linkedin)](https://www.linkedin.com/in/ashishhmakwana/)
-[![Email](https://img.shields.io/badge/Email-ashishmakwana08@gmail.com-informational?logo=gmail)](mailto:ashishmkwn43@gmail.com)
+[![Email](https://img.shields.io/badge/Email-ashishmkwn43@gmail.com-informational?logo=gmail)](mailto:ashishmkwn43@gmail.com)
 
 ---
 
