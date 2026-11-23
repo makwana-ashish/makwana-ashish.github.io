@@ -62,7 +62,7 @@
       "mainEntity": {
         "@id": "https://makwana-ashish.github.io/#person"
       },
-      "dateModified": "2026-11-23T21:00:00+05:30",
+      "dateModified": "2026-11-23T21:40:00+05:30",
       "inLanguage": "en",
       "primaryImageOfPage": {
         "@type": "ImageObject",
@@ -218,6 +218,11 @@
   .icon{width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:var(--surface-2);
         color:var(--accent);margin-bottom:16px}
   .icon svg{width:20px;height:20px}
+  .work-card{display:flex;flex-direction:column;transition:transform .15s,border-color .15s}
+  .work-card:hover,.work-card:focus-visible{transform:translateY(-2px);border-color:var(--accent)}
+  .work-card .wtag{font-size:12px;color:var(--accent-2);text-transform:uppercase;letter-spacing:.1em;margin-bottom:12px}
+  .work-card p{flex:1}
+  .work-card .more{margin-top:18px;font-size:14px;color:var(--accent);font-weight:500}
   .about p{color:var(--muted);font-size:17px;margin-bottom:16px;max-width:720px}
   .about p strong{color:var(--text);font-weight:600}
 
@@ -261,6 +266,7 @@
       <ul>
         <li><a href="#about">About</a></li>
         <li><a href="#services">What I do</a></li>
+        <li><a href="#work">Work</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -357,10 +363,44 @@
     </div>
   </section>
 
+  <!-- FEATURED WORK -->
+  <section id="work">
+    <div class="wrap">
+      <div class="label mono">03 / Featured work</div>
+      <h2>Case studies from Whitestork</h2>
+      <div class="grid-2">
+        <a class="card work-card" href="https://whitestorksoft.com/case-studies/negotio-ai/" target="_blank" rel="noopener">
+          <div class="wtag mono">AI · Travel</div>
+          <h3>Negotio AI</h3>
+          <p>AI travel management platform that automates bookings and itinerary building and gives personalised recommendations, replacing manual searches across 12+ booking platforms.</p>
+          <span class="more">Read case study &rarr;</span>
+        </a>
+        <a class="card work-card" href="https://whitestorksoft.com/case-studies/playpal/" target="_blank" rel="noopener">
+          <div class="wtag mono">Mobile · Sports</div>
+          <h3>PlayPal</h3>
+          <p>End-to-end sports facility booking platform with real-time availability, venue management and in-app community, used by 40k+ athletes across 3 countries.</p>
+          <span class="more">Read case study &rarr;</span>
+        </a>
+        <a class="card work-card" href="https://whitestorksoft.com/case-studies/breathstate/" target="_blank" rel="noopener">
+          <div class="wtag mono">Mobile · Health &amp; Wellness</div>
+          <h3>BreathState</h3>
+          <p>Guided breathwork app for iOS, Android and Apple Watch with mood check-ins, progress tracking and a Firebase backend.</p>
+          <span class="more">Read case study &rarr;</span>
+        </a>
+        <a class="card work-card" href="https://whitestorksoft.com/case-studies/pixies-garden/" target="_blank" rel="noopener">
+          <div class="wtag mono">E-commerce · Growth</div>
+          <h3>Pixies Garden</h3>
+          <p>Unified e-commerce growth system across Shopify, Amazon and Walmart, bringing together SEO, paid ads, automation and reporting.</p>
+          <span class="more">Read case study &rarr;</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- EXPERIENCE -->
   <section id="experience">
     <div class="wrap">
-      <div class="label mono">03 / Experience</div>
+      <div class="label mono">04 / Experience</div>
       <h2>Where I've built</h2>
 
       <div class="job">
@@ -409,7 +449,7 @@
   <!-- SKILLS -->
   <section id="skills">
     <div class="wrap">
-      <div class="label mono">04 / Skills</div>
+      <div class="label mono">05 / Skills</div>
       <h2>Toolbox</h2>
       <div class="grid-2">
         <div class="card skillgroup">
@@ -435,7 +475,7 @@
   <!-- CONTACT -->
   <section id="contact" class="contact">
     <div class="wrap">
-      <div class="label mono">05 / Contact</div>
+      <div class="label mono">06 / Contact</div>
       <h2>Let's build something together.</h2>
       <p>Building a SaaS product, adding AI to an existing one, or need a technical partner? I reply to every message.</p>
       <div class="cta">
