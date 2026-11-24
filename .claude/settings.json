@@ -1,0 +1,14 @@
+{
+  "extraKnownMarketplaces": {
+    "agricidaniel-blog": {
+      "source": { "source": "github", "repo": "AgriciDaniel/claude-blog" }
+    },
+    "agricidaniel-claude-seo": {
+      "source": { "source": "github", "repo": "AgriciDaniel/claude-seo" }
+    }
+  },
+  "enabledPlugins": {
+    "claude-blog@agricidaniel-blog": true,
+    "claude-seo@agricidaniel-claude-seo": true
+  }
+}
